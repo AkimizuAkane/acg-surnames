@@ -19,7 +19,8 @@
   "methodology": {
     "matching": "递减前缀匹配 + 汉字读音双重校验",
     "reading_source": "优先纯假名(空格分隔)，回退罗马字(jaconv转写)",
-    "surname_db": "JMnedict中标记为surname的条目，同一汉字可有多条读音"
+    "surname_db": "JMnedict中标记为surname的条目，同一汉字可有多条读音",
+    "readings_note": "每条姓氏的readings字段仅列出在此次ACG角色数据中实际匹配到的读音，并非该姓氏在词典中的全部可能读音"
   },
   "surnames": [
     {
