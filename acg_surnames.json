@@ -1,10 +1,12 @@
 {
   "title": "ACG百家姓 — 二次元虚构角色姓氏统计",
-  "description": "基于某ACG维基站约17.7万条角色数据，通过JMnedict日本命名实体词典进行汉字-读音双重校验匹配得出的ACG角色姓氏分布",
+  "description": "基于Bangumi(bgm.tv)约17.7万条角色数据，通过JMnedict日本命名实体词典进行汉字-读音双重校验匹配得出的ACG角色姓氏分布",
   "license": "CC BY-NC-SA 4.0",
   "source": {
-    "character_database": "ACG维基站角色数据dump (约17.7万条)",
-    "surname_database": "JMnedict (Japanese-Multilingual Named Entity Dictionary)"
+    "character_database": "Bangumi (bgm.tv) 全量角色数据，来自 bangumi/Archive (character.jsonlines)",
+    "character_database_url": "https://github.com/bangumi/Archive/releases",
+    "surname_database": "JMnedict (Japanese-Multilingual Named Entity Dictionary)",
+    "surname_database_url": "https://www.edrdg.org/enamdict/enamdict_doc.html"
   },
   "statistics": {
     "total_characters": 177143,
